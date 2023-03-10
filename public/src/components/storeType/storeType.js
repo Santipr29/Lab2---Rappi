@@ -20,7 +20,7 @@ class storeType extends HTMLElement {
 
     render(){
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./storeType.css">
+        <link rel="stylesheet" href="./src/components/storeType/storeType.css">
         <section>
         <img src="${this.storeicon}" alt="">
         <p>${this.storetypename}</p>

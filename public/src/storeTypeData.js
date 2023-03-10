@@ -1,6 +1,6 @@
 const storeTypeData = [
     {
-        storetypename: "Restaurante",
+        storetypename: "Restaurantes",
         storeicon: "https://www.rappi.com.co/restaurants-icon.webp"
 
     },
