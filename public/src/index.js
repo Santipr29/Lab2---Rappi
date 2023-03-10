@@ -12,6 +12,13 @@ class AppContainer extends HTMLElement {
     }
   
     render() {
+
+        this.shadowRoot.innerHTML = 
+        `
+        <nav-bar></nav-bar>
+
+        `
+
         storeTypeData.forEach(user => {
             this.shadowRoot.innerHTML +=     
         `
