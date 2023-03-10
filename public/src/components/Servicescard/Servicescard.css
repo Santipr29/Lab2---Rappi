@@ -2,15 +2,17 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'arial';
 }
 
 section img{
-    min-height: 100px;
-    max-height: 100px;
-    min-width: 100px;
-    max-width: 100px;
+    min-height: 120px;
+    max-height: 120px;
+    min-width: 120px;
+    max-width: 120px;
 }
 
-section h3{
+section p{
     margin-top: -1px;
+    font-size: x-large;
 }

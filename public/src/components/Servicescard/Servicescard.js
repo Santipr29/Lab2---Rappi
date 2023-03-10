@@ -25,7 +25,7 @@ class MyServicescard extends HTMLElement{
         <link rel="stylesheet" href="./src/components/Servicescard/Servicescard.css">
         <section>
             <img src="${this.image}">
-            <h3>${this.name}</h3>
+            <p>${this.name}</p>
         </section>
         `;
     }
