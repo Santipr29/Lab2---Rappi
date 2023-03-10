@@ -1,7 +1,7 @@
 class storeType extends HTMLElement {
 
     static get observedAttributes() {
-        return ["storeType","storeIcon"];
+        return ["storeicon","storetypename"];
     }
 
     constructor() {
@@ -22,12 +22,12 @@ class storeType extends HTMLElement {
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./storeType.css">
         <section>
-        <img src="${this.storeIcon}" alt="">
-        <p>${this.storeType}</p>
+        <img src="${this.storeicon}" alt="">
+        <p>${this.storetypename}</p>
         </section>
         `;
     }
 }
 
-customElements.define('storeType-card', storeType);
+customElements.define('storetype-card', storeType);
 export default storeType;

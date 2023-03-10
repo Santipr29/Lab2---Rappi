@@ -1,4 +1,4 @@
-import data from "./data.js";
+import storeTypeData from "./storeTypeData.js";
 import * as components from "./components/index.js";
 
 class AppContainer extends HTMLElement {
@@ -12,10 +12,13 @@ class AppContainer extends HTMLElement {
     }
   
     render() {
-      this.shadowRoot.innerHTML = `
-      <custom-message message="Hellooooo guys"></custom-message>
-      <my-counter></my-counter>
-      `;
+        storeTypeData.forEach(user => {
+            this.shadowRoot.innerHTML +=     
+        `
+        <storetype-card storeTypeName="${user.storetypename}" storeIcon="${user.storeicon}"></storetype-card>
+        `
+    
+        });
     }
   }
   
