@@ -29,5 +29,5 @@ class storeType extends HTMLElement {
     }
 }
 
-customElements.define('custom-message', CustomMessage);
-export default CustomMessage;
+customElements.define('storeType-card', storeType);
+export default storeType;

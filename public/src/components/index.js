@@ -1,1 +1,1 @@
-export { default as customMessage } from "./storeType/storeType.js";
+export { default as storeType } from "./storeType/storeType.js";
